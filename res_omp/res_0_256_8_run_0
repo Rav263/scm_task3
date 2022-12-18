@@ -1,0 +1,23 @@
+	 err: 0
+	 err: 1.86873e-12
+it: 0	 err: 7.47513e-12
+it: 1	 err: 1.6819e-11
+it: 2	 err: 2.99002e-11
+it: 3	 err: 4.6719e-11
+it: 4	 err: 6.72753e-11
+it: 5	 err: 9.15692e-11
+it: 6	 err: 1.19601e-10
+it: 7	 err: 1.51369e-10
+it: 8	 err: 1.86876e-10
+it: 9	 err: 2.2612e-10
+it: 10	 err: 2.69101e-10
+it: 11	 err: 3.15819e-10
+it: 12	 err: 3.66275e-10
+it: 13	 err: 4.20468e-10
+it: 14	 err: 4.78398e-10
+it: 15	 err: 5.40065e-10
+it: 16	 err: 6.0547e-10
+it: 17	 err: 6.74611e-10
+it: 18	 err: 7.4749e-10
+it: 19	 err: 8.24106e-10
+Time       elapsed:  0.592685sec.
