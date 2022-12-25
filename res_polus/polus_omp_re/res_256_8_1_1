@@ -1,0 +1,65 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1016109: <OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 1 256 20> in cluster <MSUCluster> Done
+
+Job <OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 1 256 20> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:24:52 2022
+Job was executed on host(s) <4*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Wed Dec 21 18:11:48 2022
+                            <4*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03/scm_task3> was used as the working directory.
+Started at Wed Dec 21 18:11:48 2022
+Terminated at Wed Dec 21 18:11:56 2022
+Results reported at Wed Dec 21 18:11:56 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 1 256 20
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   127.81 sec.
+    Max Memory :                                 428 MB
+    Average Memory :                             285.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                32
+    Run time :                                   7 sec.
+    Turnaround time :                            118024 sec.
+
+The output (if any) follows:
+
+	 err: 2.22045e-16
+	 err: 7.9711e-09
+it: 0	 err: 0.00011714
+it: 1	 err: 0.000351412
+it: 2	 err: 0.000585576
+it: 3	 err: 0.000936742
+it: 4	 err: 0.00140482
+it: 5	 err: 0.0018725
+it: 6	 err: 0.00245685
+it: 7	 err: 0.00315771
+it: 8	 err: 0.00385771
+it: 9	 err: 0.00467386
+it: 10	 err: 0.00560593
+it: 11	 err: 0.0065365
+it: 12	 err: 0.00758251
+it: 13	 err: 0.00874367
+it: 14	 err: 0.00990251
+it: 15	 err: 0.0111759
+it: 16	 err: 0.0125635
+it: 17	 err: 0.0139478
+it: 18	 err: 0.0154455
+it: 19	 err: 0.0170563
+Time       elapsed:  4.88498sec.
+
+
+PS:
+
+Read file <all_errors_re/err_256_8_1_1> for stderr output of this job.
+

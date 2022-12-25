@@ -1,0 +1,64 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1016140: <mpiexec ./reorder_mpi_main 0 128 20> in cluster <MSUCluster> Done
+
+Job <mpiexec ./reorder_mpi_main 0 128 20> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:28:21 2022
+Job was executed on host(s) <16*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Wed Dec 21 02:28:31 2022
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03/scm_task3> was used as the working directory.
+Started at Wed Dec 21 02:28:31 2022
+Terminated at Wed Dec 21 02:28:32 2022
+Results reported at Wed Dec 21 02:28:32 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpiexec ./reorder_mpi_main 0 128 20
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.00 sec.
+    Max Memory :                                 912 MB
+    Average Memory :                             608.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              19
+    Max Threads :                                56
+    Run time :                                   1 sec.
+    Turnaround time :                            61211 sec.
+
+The output (if any) follows:
+
+	 err: 0
+	 err: 7.54367e-12
+it: 0	 err: 3.01747e-11
+it: 1	 err: 6.7893e-11
+it: 2	 err: 1.20699e-10
+it: 3	 err: 1.88591e-10
+it: 4	 err: 2.71571e-10
+it: 5	 err: 3.69639e-10
+it: 6	 err: 4.82793e-10
+it: 7	 err: 6.11035e-10
+it: 8	 err: 7.54363e-10
+it: 9	 err: 9.12779e-10
+it: 10	 err: 1.08628e-09
+it: 11	 err: 1.27487e-09
+it: 12	 err: 1.47855e-09
+it: 13	 err: 1.69731e-09
+it: 14	 err: 1.93116e-09
+it: 15	 err: 2.18009e-09
+it: 16	 err: 2.44411e-09
+it: 17	 err: 2.72322e-09
+it: 18	 err: 3.01741e-09
+it: 19	 err: 3.32669e-09
+Time       elapsed:  0.402237sec.
+
+
+PS:
+
+Read file <all_errors_re_exc/err_128_16_0_1> for stderr output of this job.
+

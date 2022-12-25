@@ -1,0 +1,64 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1016153: <OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 1 128 20> in cluster <MSUCluster> Done
+
+Job <OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 1 128 20> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:28:22 2022
+Job was executed on host(s) <4*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:57:46 2022
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03/scm_task3> was used as the working directory.
+Started at Tue Dec 20 09:57:46 2022
+Terminated at Tue Dec 20 09:57:46 2022
+Results reported at Tue Dec 20 09:57:46 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 1 128 20
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.69 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             0.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   0 sec.
+    Turnaround time :                            1764 sec.
+
+The output (if any) follows:
+
+	 err: 2.22045e-16
+	 err: 7.90986e-09
+it: 0	 err: 2.88829e-05
+it: 1	 err: 8.66706e-05
+it: 2	 err: 0.000144437
+it: 3	 err: 0.000231092
+it: 4	 err: 0.000346631
+it: 5	 err: 0.000462132
+it: 6	 err: 0.000606501
+it: 7	 err: 0.000779729
+it: 8	 err: 0.00095289
+it: 9	 err: 0.00115489
+it: 10	 err: 0.00138571
+it: 11	 err: 0.00161642
+it: 12	 err: 0.00187593
+it: 13	 err: 0.00216421
+it: 14	 err: 0.00245233
+it: 15	 err: 0.0027692
+it: 16	 err: 0.00311477
+it: 17	 err: 0.00346013
+it: 18	 err: 0.00383416
+it: 19	 err: 0.00423684
+Time       elapsed:  0.159591sec.
+
+
+PS:
+
+Read file <all_errors_re_exc/err_128_4_1_1> for stderr output of this job.
+

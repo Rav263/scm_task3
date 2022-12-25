@@ -1,0 +1,65 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1016118: <OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 0 512 20> in cluster <MSUCluster> Done
+
+Job <OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 0 512 20> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:24:52 2022
+Job was executed on host(s) <4*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Wed Dec 21 18:12:05 2022
+                            <4*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03/scm_task3> was used as the working directory.
+Started at Wed Dec 21 18:12:05 2022
+Terminated at Wed Dec 21 18:12:11 2022
+Results reported at Wed Dec 21 18:12:11 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+OMP_NUM_THREADS=4; mpiexec ./reorder_omp_main 0 512 20
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   145.03 sec.
+    Max Memory :                                 1794 MB
+    Average Memory :                             1196.33 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                32
+    Run time :                                   6 sec.
+    Turnaround time :                            118039 sec.
+
+The output (if any) follows:
+
+	 err: 4.57967e-16
+	 err: 4.62602e-13
+it: 0	 err: 1.85063e-12
+it: 1	 err: 4.16398e-12
+it: 2	 err: 7.40264e-12
+it: 3	 err: 1.15666e-11
+it: 4	 err: 1.66557e-11
+it: 5	 err: 2.26703e-11
+it: 6	 err: 2.96101e-11
+it: 7	 err: 3.7475e-11
+it: 8	 err: 4.62653e-11
+it: 9	 err: 5.59807e-11
+it: 10	 err: 6.66214e-11
+it: 11	 err: 7.81874e-11
+it: 12	 err: 9.06786e-11
+it: 13	 err: 1.04095e-10
+it: 14	 err: 1.18437e-10
+it: 15	 err: 1.33704e-10
+it: 16	 err: 1.49896e-10
+it: 17	 err: 1.67013e-10
+it: 18	 err: 1.85055e-10
+it: 19	 err: 2.04022e-10
+Time       elapsed:  4.56786sec.
+
+
+PS:
+
+Read file <all_errors_re/err_512_8_0_1> for stderr output of this job.
+

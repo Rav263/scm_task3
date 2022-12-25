@@ -1,0 +1,65 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1016186: <mpiexec ./reorder_mpi_main 1 512 20> in cluster <MSUCluster> Done
+
+Job <mpiexec ./reorder_mpi_main 1 512 20> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:28:22 2022
+Job was executed on host(s) <16*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Wed Dec 21 20:14:40 2022
+                            <16*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03/scm_task3> was used as the working directory.
+Started at Wed Dec 21 20:14:40 2022
+Terminated at Wed Dec 21 20:14:46 2022
+Results reported at Wed Dec 21 20:14:46 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpiexec ./reorder_mpi_main 1 512 20
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   150.52 sec.
+    Max Memory :                                 2446 MB
+    Average Memory :                             1631.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              19
+    Max Threads :                                56
+    Run time :                                   7 sec.
+    Turnaround time :                            125184 sec.
+
+The output (if any) follows:
+
+	 err: 3.33067e-16
+	 err: 8.00152e-09
+it: 0	 err: 0.000471691
+it: 1	 err: 0.0014146
+it: 2	 err: 0.00235599
+it: 3	 err: 0.00376659
+it: 4	 err: 0.00564492
+it: 5	 err: 0.00751725
+it: 6	 err: 0.00985334
+it: 7	 err: 0.0126507
+it: 8	 err: 0.0154347
+it: 9	 err: 0.018674
+it: 10	 err: 0.0223654
+it: 11	 err: 0.026033
+it: 12	 err: 0.0301449
+it: 13	 err: 0.0346967
+it: 14	 err: 0.0392119
+it: 15	 err: 0.0441574
+it: 16	 err: 0.049528
+it: 17	 err: 0.0548465
+it: 18	 err: 0.060579
+it: 19	 err: 0.0667194
+Time       elapsed:  4.58811sec.
+
+
+PS:
+
+Read file <all_errors_re_exc/err_512_32_1_1> for stderr output of this job.
+

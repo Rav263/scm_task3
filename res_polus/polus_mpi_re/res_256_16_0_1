@@ -1,0 +1,64 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1016095: <mpiexec ./reorder_mpi_main 0 256 20> in cluster <MSUCluster> Done
+
+Job <mpiexec ./reorder_mpi_main 0 256 20> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:24:52 2022
+Job was executed on host(s) <16*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skmodel22-621-03> in cluster <MSUCluster> at Tue Dec 20 09:58:13 2022
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03> was used as the home directory.
+</home_edu/edu-cmc-skmodel22-621/edu-cmc-skmodel22-621-03/scm_task3> was used as the working directory.
+Started at Tue Dec 20 09:58:13 2022
+Terminated at Tue Dec 20 09:58:16 2022
+Results reported at Tue Dec 20 09:58:16 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpiexec ./reorder_mpi_main 0 256 20
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   27.08 sec.
+    Max Memory :                                 1258 MB
+    Average Memory :                             839.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              19
+    Max Threads :                                56
+    Run time :                                   2 sec.
+    Turnaround time :                            2004 sec.
+
+The output (if any) follows:
+
+	 err: 0
+	 err: 1.86878e-12
+it: 0	 err: 7.47513e-12
+it: 1	 err: 1.68189e-11
+it: 2	 err: 2.99002e-11
+it: 3	 err: 4.6719e-11
+it: 4	 err: 6.72753e-11
+it: 5	 err: 9.15692e-11
+it: 6	 err: 1.19601e-10
+it: 7	 err: 1.51369e-10
+it: 8	 err: 1.86876e-10
+it: 9	 err: 2.2612e-10
+it: 10	 err: 2.69101e-10
+it: 11	 err: 3.15819e-10
+it: 12	 err: 3.66275e-10
+it: 13	 err: 4.20468e-10
+it: 14	 err: 4.78398e-10
+it: 15	 err: 5.40065e-10
+it: 16	 err: 6.0547e-10
+it: 17	 err: 6.74611e-10
+it: 18	 err: 7.4749e-10
+it: 19	 err: 8.24106e-10
+Time       elapsed:  1.59074sec.
+
+
+PS:
+
+Read file <all_errors_re/err_256_16_0_1> for stderr output of this job.
+
